@@ -1,3 +1,9 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin:0;
+  background: url('../images/background.jpg'); 
+  background-size:cover;
+}
 .primary-text{
   color:#519872;
 }
@@ -10,3 +16,109 @@
 .secondary-background{
   background-color:#ffffff;
 }
+.background-image{
+  background: url('assets/images/background.jpg'); 
+}
+.col-20{
+  width:20%;
+}
+.col-50{
+  width:50%;
+}
+.col-85{
+  width:85%;
+  margin:auto;
+}
+
+
+
+/* HEADER */
+
+
+
+header{
+  border-bottom: 1px solid white;
+  overflow: auto;
+  padding:5px 20px;
+  line-height:80px;
+}
+.logo{
+  float:left;
+  overflow: auto;
+}
+.logo img{
+  display:inline-block;
+  vertical-align: middle;
+}
+.title{
+  float:left;
+  overflow: auto;
+}
+
+nav{
+  float:right;
+}
+nav ul{
+  padding:0;
+  list-style-type: none;
+}
+nav li{
+  display: inline-block;
+  margin:0 10px;
+}
+nav a{
+  text-decoration: none;
+  color:white;
+}
+
+.clearfix: after{
+  clear:both;
+}
+
+
+/*BODY*/
+
+.main{
+  margin-top: 100px;
+}
+.food-item{
+  float:left;
+  border-radius:5px 0px;
+  margin:0 50px;
+}
+h1{
+  text-align: center;
+  display:block;
+  font-weight:300;
+}
+h2{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+h4{
+  text-align: center;
+}
+body a{
+  text-align: center;
+  border-radius: 10px;
+  padding:10px 15px;
+}
+.btn{
+  text-align:center;
+  text-decoration: none;
+}
+.food-picture{
+  border-radius: 100px;
+  border-color: #519872;
+  border: 5px;
+  text-align: center;
+}
+
+
+
+
+/*FOOTER*/
+
+
